@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab2">
-        <activity android:name=".feed.CoinsFeedActivity"></activity>
+        <activity android:name=".feed.DetailsActivity"></activity>
+        <activity android:name=".feed.CoinsFeedActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
