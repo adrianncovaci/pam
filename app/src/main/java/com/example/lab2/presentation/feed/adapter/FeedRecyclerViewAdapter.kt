@@ -1,13 +1,13 @@
-package com.example.lab2.feed.adapter
+package com.example.lab2.presentation.feed.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lab2.databinding.FeedCellLayoutBinding
-import com.example.lab2.feed.DetailsActivity
-import com.example.lab2.feed.models.FeedItem
-import com.example.lab2.feed.viewHolder.FeedItemViewHolder
+import com.example.lab2.presentation.detailView.DetailsActivity
+import com.example.lab2.presentation.feed.models.FeedItem
+import com.example.lab2.presentation.feed.viewHolder.FeedItemViewHolder
 
 class FeedRecyclerViewAdapter(private var data: Array<FeedItem>):
     RecyclerView.Adapter<FeedItemViewHolder>() {

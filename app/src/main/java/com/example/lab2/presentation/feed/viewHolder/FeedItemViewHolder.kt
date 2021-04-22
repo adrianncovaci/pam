@@ -1,10 +1,8 @@
-package com.example.lab2.feed.viewHolder
+package com.example.lab2.presentation.feed.viewHolder
 
-import android.content.Intent
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lab2.databinding.FeedCellLayoutBinding
-import com.example.lab2.feed.DetailsActivity
-import com.example.lab2.feed.models.FeedItem
+import com.example.lab2.presentation.feed.models.FeedItem
 
 
 class FeedItemViewHolder(private val binding: FeedCellLayoutBinding): RecyclerView.ViewHolder(binding.root) {

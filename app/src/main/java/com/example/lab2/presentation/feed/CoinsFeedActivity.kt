@@ -1,18 +1,17 @@
-package com.example.lab2.feed
+package com.example.lab2.presentation.feed
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ProgressBar
-import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lab2.R
 import com.example.lab2.api.ApiRequests
-import com.example.lab2.api.CoinsApi
+import com.example.lab2.api.models.CoinsApi
 import com.example.lab2.databinding.ActivityCoinsFeedBinding
-import com.example.lab2.feed.adapter.FeedRecyclerViewAdapter
-import com.example.lab2.feed.models.FeedItem
+import com.example.lab2.presentation.feed.adapter.FeedRecyclerViewAdapter
+import com.example.lab2.presentation.feed.models.FeedItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
